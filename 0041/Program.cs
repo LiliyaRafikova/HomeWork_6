@@ -5,7 +5,7 @@ Console.Write("Введите количество M чисел, подлежа�
 int size = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите числа: ");
 int [] Array = new int[size];
-int Count=0; //счетчик четных чисел
+int Count=0; //счетчик чисел>0 
 for (int i =0; i<size; i++)
 {
     Array[i] = Convert.ToInt32(Console.ReadLine());
